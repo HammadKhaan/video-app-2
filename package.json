@@ -1,0 +1,27 @@
+{
+  "name": "react-native-webrtc-minimal",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "lint": "eslint .",
+    "clean": "cd android && gradlew clean"
+  },
+  "dependencies": {
+    "git-filter-repo": "^0.0.30",
+    "npm": "^10.2.4",
+    "react": "16.13.1",
+    "react-native": "^0.63.5",
+    "react-native-vector-icons": "^10.0.2",
+    "react-native-webrtc": "^1.87.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.9",
+    "@babel/runtime": "7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "eslint": "^7.14.0",
+    "metro-react-native-babel-preset": "^0.64.0"
+  }
+}
